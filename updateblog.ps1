@@ -63,7 +63,7 @@ if (-not (Test-Path $destinationPath)) {
 }
 
 # Use Robocopy to mirror the directories
-$robocopyOptions = @('/MIR', '/Z', '/W:5', '/R:3')
+$robocopyOptions = @('/MIR', '/Z', '/W:5', '/R:3', '/XO')
 $robocopyResult = robocopy $sourcePath $destinationPath @robocopyOptions
 
 if ($LASTEXITCODE -ge 8) {
