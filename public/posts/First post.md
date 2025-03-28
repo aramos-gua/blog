@@ -7,6 +7,6 @@ tags:
   - 42-school
   - programming
 ---
-This is something else
+dfodfnThis is something else
 
 ![[ffff 1.png]]
