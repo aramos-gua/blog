@@ -7,13 +7,6 @@ tags:
   - 42-school
   - programming
 ---
-
-This is my first blog post. 
-
-Trying stuff
-
-[[bus_stop.jpeg]]
-
 This is something else
 
 ![[ffff 1.png]]
