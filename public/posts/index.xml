@@ -15,5 +15,19 @@
       <guid>/posts/first-post/</guid>
       <description>&lt;p&gt;This is my first blog post.&lt;/p&gt;&#xA;&lt;p&gt;Trying stuff&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;/images/bus_stop.jpeg&#34; alt=&#34;Image Description&#34;&gt;&lt;/p&gt;</description>
     </item>
+    <item>
+      <title></title>
+      <link>/posts/third-post/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/posts/third-post/</guid>
+      <description>&lt;p&gt;Let´s hope this time it works&lt;/p&gt;&#xA;&lt;p&gt;!&lt;img src=&#34;/images/Capture%20d%27%C3%A9cran%202023-04-14%20071332.png&#34; alt=&#34;Image Description&#34;&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>/posts/this-is-another-post/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/posts/this-is-another-post/</guid>
+      <description>&lt;p&gt;Trying the second one&lt;/p&gt;&#xA;&lt;p&gt;!&lt;img src=&#34;/images/ffff.png&#34; alt=&#34;Image Description&#34;&gt;&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>

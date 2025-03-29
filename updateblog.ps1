@@ -2,7 +2,7 @@
 
 # Set variables for Obsidian to Hugo copy
 $sourcePath = "C:\Users\alex_\Documents\Vault\posts"
-$destinationPath = "C:\Users\alex_\Documents\aramos-blog\public\posts"
+$destinationPath = "C:\Users\alex_\Documents\aramos-blog\content\posts"
 
 # Set Github repo 
 $myrepo = "git@github.com:aramos-gua/blog.git"
