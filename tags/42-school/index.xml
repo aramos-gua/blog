@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>42-School on Terminal</title>
-    <link>/tags/42-school/</link>
+    <link>//localhost:1313/tags/42-school/</link>
     <description>Recent content in 42-School on Terminal</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Fri, 28 Mar 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/tags/42-school/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/tags/42-school/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>First Post</title>
-      <link>/posts/first-post/</link>
+      <link>//localhost:1313/posts/first-post/</link>
       <pubDate>Fri, 28 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>/posts/first-post/</guid>
+      <guid>//localhost:1313/posts/first-post/</guid>
       <description>&lt;p&gt;This should change something&lt;/p&gt;&#xA;&lt;p&gt;This should be a button to the second post&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;title: &amp;ldquo;My first Post&amp;rdquo;&#xA;prev: &amp;ldquo;second post&amp;rdquo;&#xA;next: &amp;ldquo;This is another post&amp;rdquo;&lt;/p&gt;&#xA;&lt;hr&gt;</description>
     </item>
   </channel>
