@@ -7,9 +7,4 @@ tags:
   - 42-school
   - programming
 ---
-
-This is my first blog post. 
-
-Trying stuff
-
-![Image Description](/images/bus_stop.jpeg)
+This should change something
