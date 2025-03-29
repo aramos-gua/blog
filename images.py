@@ -7,6 +7,10 @@ posts_dir = r"C:\Users\alex_\Documents\aramos-blog\content\posts"
 attachments_dir = r"C:\Users\alex_\Documents\Vault\attachments"
 static_images_dir = r"C:\Users\alex_\Documents\aramos-blog\static\images"
 
+# Step 0: Converts Obsidian [[links]] to Markdown [links](url)
+def convert_obsidian_links(content):
+    return re.sub(r'\[\[(.*?)\]\]',lambda m: f'[{m.group(1)}](/posts/{m.group(1).replace(" ", "-").lower()}/)', content)
+
 # Step 1: Process each markdown file in the posts directory
 for filename in os.listdir(posts_dir):
     if filename.endswith(".md"):
@@ -15,6 +19,9 @@ for filename in os.listdir(posts_dir):
         with open(filepath, "r", encoding="utf-8") as file:
             content = file.read()
         
+        # Convert Obsidian links
+        content = convert_obsidian_links(content)
+
         # Step 2: Find all image links in the format ![Image Description](/images/Pasted%20image%20...%20.png)
         images = re.findall(r'\[\[([^]]*\.(?:png|jpg|jpeg))\]\]', content)
 

@@ -8,3 +8,12 @@ tags:
   - programming
 ---
 This should change something
+
+This should be a button to the second post
+
+---
+title: "My first Post"
+prev: "second post"
+next: "This is another post"
+
+---
