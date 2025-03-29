@@ -18,3 +18,5 @@ prev: "second post"
 next: "This is another post"
 
 ---
+
+Check out my other post on [secont post](/second-post/).
