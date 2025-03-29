@@ -1,6 +1,7 @@
 ---
 title: First Post
 date: 2025-03-28
+type: page
 draft: false
 tags:
   - aramos
