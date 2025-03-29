@@ -1,5 +1,5 @@
 ---
-title: second post
+title: second-post
 date: 2025-03-28
 type: page
 draft: false
