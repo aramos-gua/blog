@@ -20,14 +20,14 @@
       <link>/posts/second-post/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>/posts/second-post/</guid>
-      <description>&lt;p&gt;Let´s hope this time it works&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;/posts/capture-d%27%C3%A9cran-2023-04-14-071332.png/&#34; alt=&#34;Capture d’écran 2023-04-14 071332.png&#34;&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;Let´s hope this time it works&lt;/p&gt;&#xA;&lt;p&gt;![[Capture d&amp;rsquo;écran 2023-04-14 071332.png]]&lt;/p&gt;</description>
     </item>
     <item>
       <title></title>
       <link>/posts/this-is-another-post/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>/posts/this-is-another-post/</guid>
-      <description>&lt;p&gt;Trying the second one&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;/posts/ffff.png/&#34; alt=&#34;ffff.png&#34;&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;Trying the second one&lt;/p&gt;&#xA;&lt;p&gt;![[ffff.png]]&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

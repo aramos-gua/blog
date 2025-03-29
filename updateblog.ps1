@@ -62,9 +62,22 @@ if (-not (Test-Path $destinationPath)) {
     exit 1
 }
 
-# Use Robocopy to mirror the directories
-$robocopyOptions = @('/MIR', '/Z', '/W:5', '/R:3', '/XO')
-$robocopyResult = robocopy $sourcePath $destinationPath @robocopyOptions
+# Create a folder per Markdown file in content/posts
+Write-Host "Syncing posts from Obsidian..."
+$files = Get-ChildItem -Path $sourcePath -Filter "*.md"
+
+foreach ($file in $files) {
+    $postFolder = Join-Path $destinationPath $($file.BaseName)  # Create folder based on filename
+    if (-not (Test-Path $postFolder)) {
+        New-Item -ItemType Directory -Path $postFolder | Out-Null
+    }
+
+    $destinationFile = Join-Path $postFolder "index.md"  # Rename to index.md
+    Copy-Item -Path $file.FullName -Destination $destinationFile -Force
+}
+
+Write-Host "✅ All posts moved into folders correctly!"
+
 
 if ($LASTEXITCODE -ge 8) {
     Write-Error "Robocopy failed with exit code $LASTEXITCODE"
