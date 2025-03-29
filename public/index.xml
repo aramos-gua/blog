@@ -2,32 +2,32 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Terminal</title>
-    <link>//localhost:1313/</link>
+    <link>/</link>
     <description>Recent content on Terminal</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Fri, 28 Mar 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>First Post</title>
-      <link>//localhost:1313/posts/first-post/</link>
+      <link>/posts/first-post/</link>
       <pubDate>Fri, 28 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/posts/first-post/</guid>
+      <guid>/posts/first-post/</guid>
       <description>&lt;p&gt;This should change something&lt;/p&gt;&#xA;&lt;p&gt;This should be a button to the second post&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;title: &amp;ldquo;My first Post&amp;rdquo;&#xA;prev: &amp;ldquo;second post&amp;rdquo;&#xA;next: &amp;ldquo;This is another post&amp;rdquo;&lt;/p&gt;&#xA;&lt;hr&gt;</description>
     </item>
     <item>
       <title></title>
-      <link>//localhost:1313/posts/second-post/</link>
+      <link>/posts/second-post/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/posts/second-post/</guid>
-      <description>&lt;p&gt;Let´s hope this time it works&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;//localhost:1313/posts/capture-d%27%C3%A9cran-2023-04-14-071332.png/&#34; alt=&#34;Capture d’écran 2023-04-14 071332.png&#34;&gt;&lt;/p&gt;</description>
+      <guid>/posts/second-post/</guid>
+      <description>&lt;p&gt;Let´s hope this time it works&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;/posts/capture-d%27%C3%A9cran-2023-04-14-071332.png/&#34; alt=&#34;Capture d’écran 2023-04-14 071332.png&#34;&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title></title>
-      <link>//localhost:1313/posts/this-is-another-post/</link>
+      <link>/posts/this-is-another-post/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/posts/this-is-another-post/</guid>
-      <description>&lt;p&gt;Trying the second one&lt;/p&gt;&#xA;&lt;p&gt;!&lt;img src=&#34;//localhost:1313/images/ffff.png&#34; alt=&#34;Image Description&#34;&gt;&lt;/p&gt;</description>
+      <guid>/posts/this-is-another-post/</guid>
+      <description>&lt;p&gt;Trying the second one&lt;/p&gt;&#xA;&lt;p&gt;!&lt;img src=&#34;/images/ffff.png&#34; alt=&#34;Image Description&#34;&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
